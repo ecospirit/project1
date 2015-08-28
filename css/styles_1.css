@@ -1,0 +1,63 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: #7e8f7c;
+  font-weight:300;
+  background-image: url("images/water.jpg");
+  background-color: #fdf3e7;
+}
+
+.text-thin {
+    font-weight:100;
+}
+
+.title-super {
+    font-size:50px;
+}
+
+.title-logo {
+    margin-top: 20px;
+}
+
+img, embed, object, video {
+    max-width: 100%;
+}
+
+/* HEADING */
+
+.my-picture {
+  max-height: 100%;
+  float: left;
+  margin: 25px;
+  max-width: 30%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #7e8f7c;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* MEDIA QUERIES */
+
+
+/* MAIN SECTIONS */
+
+.content {
+  max-width: 100%;
+  background-color: #c63d0f;
+  color: #fdf3e7;
+}
+
+.mission {
+  max-width: 100%;
+  font-size: 30px;
+  margin: 20px;
+}
+

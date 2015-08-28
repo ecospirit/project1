@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width=device-width,initial-scale=1">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="http://fonts.googleapis.com/css?family=Raleway:100,300" rel="stylesheet">
+    </head>
+    <body>
+        <main class="container">
+            <header class="row">
+                <div class="col-md-6">
+                    <img class="my-picture" src="images/cathyshorthairsmall.jpg" alt="my pic">
+                </div>
+                <div class="col-md-6 text-uppercase text-right">
+                    <h1 class="title-super">Alice Green</h1>
+                    <h3>Nature Nerd</h3>
+                </div>
+            </header>
+            <section class = "row">
+                <div class = "content">
+                    <h4 class="mission">Preserving the natural world with IT</h4>
+                </div>
+            </section>
+    <!-- List of Projects -->
+            <section class="row">
+                <div class = "col-md-12">
+                    <h2>PROJECTS</h2>
+                </div>
+            </section>
+            <section class="row text-center">
+                <div class="col-md-4">
+                    <img class="img-responsive" src="images/milkweed.jpg" alt="Milkweed" data-toggle="modal" data-target="#project1">
+                    <h3>Milkweed</h3>
+                    <p><a href="https://en.wikipedia.org/wiki/Asclepias" target="_blank">Milkweed</a></p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive" src="images/ducklings.jpg" alt="Ducklings" data-toggle="modal" data-target="#project2">
+                    <h3>Website Integration</h3>
+                    <p><a href="http://wicomicoenvironment.org" target="_blank">WET Website</a></p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive" src="images/children-gaming.jpg" alt="game" data-toggle="modal" data-target="#project3">
+                    <h3>It's a Game!</h3>
+                    <p>Coming 10 October 2016!</p>
+                </div>
+            </section>
+            <section class="row text-center">
+                <div class="col-md-4">
+                    <img class="img-responsive" src="images/optimization_keyboard.jpg" alt="optimize" data-toggle="modal" data-target="#project4">
+                    <h3>Website Optimization</h3>
+                    <p>Coming 12 December 2015!</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive" src="images/cambridge_map.png" alt="map">
+                    <h3>Neighborhood Map</h3>
+                    <p>Coming 01 February 2016!</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive" src="images/checkmark.png" alt="checkmark">
+                    <h3>Test-Driven Development</h3>
+                    <p>Coming 15 February 2016!</p>
+                </div>
+            </section>
+        </main>
+<!-- Modal -->
+        <section class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="project1_label" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="project1_label">Project 1</h4>
+              </div>
+              <div class="modal-body">
+                <img class="img-responsive" src="images/milkweed.jpg" alt="Milkweed">
+                I planted this in my native plant garden to save monarchs and bees. While it was growing, I learned a lot about HTML and CSS, and created this portfolio.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="project2_label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="project2_label">Project 2</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/ducklings.jpg" alt="Ducklings">
+                            I facilitated the creation of this website that integrates Weebly and Flipcause, and now maintain it.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </body>
+</html>
